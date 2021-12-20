@@ -1,9 +1,8 @@
 dur = int(input('Enter duration: '))
 
 if dur < 60:
-    second = dur % 60
     print('duration =', dur)
-    print(second, 'сек')
+    print(dur, 'сек')
 elif dur < 3600:
     minute = dur // 60
     second = dur % 60
